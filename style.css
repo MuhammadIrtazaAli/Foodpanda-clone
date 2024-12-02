@@ -1,0 +1,520 @@
+body{
+    margin: 0px auto;
+    width: 100%;
+}
+
+.header{
+    /* border: 1px solid burlywood; */
+    height: 90px;
+    /* box-shadow: 0.4px 0.2px 0.8px 0.5px gray; */
+    box-shadow: 0 20px 0 silver;
+
+    
+}
+.headerbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    box-shadow: 10px 10px 10px silver;
+background-color: white;
+    position: fixed;
+    z-index: 99999;
+    
+}
+
+
+.foodpandalogo svg{
+    width: 150px;
+    height: auto;
+    margin: 20px 20px 10px 60px ;
+}
+.logbtn{
+    /* padding: 20px 0px 20px 800px; */
+    margin-left: 800px;
+}
+.logbtn button{
+    padding: 8px 15px ;
+    background-color:white;
+
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.logbtn button:hover{
+    background-color: lightgray;
+    transform : scale(1.07) ;
+}
+.signbtn{
+    padding: 20px 0px 20px ;
+    /* margin: 1px 15px; */
+    
+    
+}
+.signbtn button{
+    background-color: #ff2b85;
+    color:white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 1px ;
+}
+.signbtn button:hover{
+    background-color: #C21760;
+    transform : scale(1.07) ;
+}
+
+.rightbar{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5px;
+}
+
+.rightbar:hover{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    transform : scale(1.07) ;
+}
+.rigthsidesvg{
+    margin-right: 70px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;    
+
+}
+.rigthsidesvg:hover{
+    background-color: lightgray;
+    border-radius: 50px;
+    padding: 5px;
+    transform : scale(1.07) ;
+    
+}
+.box1{
+    width: 100%;
+    background-color: #F7F7F7;
+    height: 600px;
+    /* padding:0px 32px; */
+    display: flex;    
+}
+/* .box1 img{
+    height: ;
+    width: 100px;
+} */
+ .box3{
+    /* background-color: aquamarine; */
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 80px;
+
+}
+ .box3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+ }
+
+
+.box2{
+    /* background-color: wheat; */
+    width: 50%;
+    margin-top: 70px;
+    /* height: 500px; */
+    
+    
+}
+.h1text{
+    padding-top: 100px;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+.box1 .inpbox{
+    padding-left: 60px;
+}
+
+.inpbox{
+    background-color: white;
+    padding: 16px 120px;
+    padding-left: 10px;
+    padding-right: 200px;
+    width: 500px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;    
+}
+
+.inpsvgbtn{
+    position: absolute;
+    right: 820px;
+    height: 58px;
+    background-color: white;
+    border: 1px ;
+    padding: 10px 0px;
+
+}
+
+.inpsvgbtn span{
+    background-color:transparent; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 90px;
+    
+    
+
+}
+
+
+
+.inpbox span button{
+    background-color:#ff2b85;
+    color: white;
+    width: 90px;
+    height: 40px; 
+    margin: 10px 10px ;
+    border: 1px ;
+    border-radius: 10px;
+}
+.inpbox span button:hover{
+    background-color:#C21760 ;
+    transform : scale(1.07) ;
+}
+
+.inp input{
+    padding: 20px 400px 20px 20px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+.section2{
+    position: relative;
+
+}
+.Container{
+    padding-top: 40px;
+
+}
+.Container h2{
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.Container img{
+    width: 100%;
+    height: 452px;
+    object-fit: cover;
+    
+}
+
+
+
+
+.containersmallbox{
+    border: 1px solid transparent;
+    background-color: white;
+    height: 360px;
+    width: 730px;
+    position: relative;
+    bottom: 200px;
+    left: 40px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px lightgray;
+
+    /* top:150p/x; */
+
+}
+
+.smallbox{
+/* padding: 30px ; */
+/* padding-top: 5px; */
+
+}
+.smallbox h2{
+    padding: 5px 30px;
+    
+}
+.smallbox p{
+    font-size: 20px;
+    padding: 8px ;
+    padding-left: 30px;
+
+}
+.smallbox button{
+    background-color:#ff2b85;
+    padding: 15px 15px;
+    margin-left:30px ;
+    border-radius: 10px;
+    color: white;
+    border-color: transparent;
+}
+.smallbox button:hover{
+    background-color:#C21760;
+    transform : scale(1.07) ;
+}
+
+
+    /* SECTION 3 */
+
+
+
+
+.section3{
+    width: 100%;
+/* background-color: #C21760; */
+}
+
+
+.text3 h2{
+    padding-left: 70px;
+    font-size: 30px;
+}
+
+
+
+.citiesrow1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.citiesrow1 img{
+    object-fit: cover;
+    width: 280px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.citiesrow1 img:hover{
+    transform: scale(1.03);
+    transition-duration: 1s;
+}
+
+
+.citiesrow2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.citiesrow2 img{
+    object-fit: cover;
+    width: 280px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.citiesrow2 img:hover{
+    transform: scale(1.03);
+    transition-duration: 1s;
+}
+
+
+.citynames span{
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 40px;
+}
+
+     /* SECTION 4 */
+
+.section4{
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    }
+
+.section4 h2{
+    font-size: 30px;
+}
+
+    .scanDiv{
+        background-color:#ff2b85;
+        height: 280px;
+        width: 90%;
+        border-radius: 20px;
+    }
+
+.scanDiv h2{
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.scanbox{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+    .scanbox img{
+        width:150px;
+        height: 140px;
+        padding-left: 20px;
+        
+    }
+
+.threesvg{
+    display: flex;
+    margin-top: 10px;
+    padding-left: 23px;
+    gap: 20px;
+}
+
+
+
+.mobileimg img{
+    position: relative;
+    left: 690px;
+    bottom: 280px;
+    width: 550px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/* SECTION 5 */
+.section5{
+    padding-left: 60px;
+height: 700px;
+}
+
+
+.containersmallbox5{
+    border: 1px solid transparent;
+    background-color: white;
+    height: 240px;
+    width: 660px;
+    position: relative;
+    bottom: 200px;
+    left: 40px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px lightgray;
+
+
+}
+
+.container5 h2{
+    font-size: 30px;
+}
+
+
+.container5 img{
+    width: 100%;
+    height: 570px;
+    object-fit: cover;
+
+}
+
+
+
+.smallbox5{
+
+}
+
+.smallbox5 h2{
+    padding: 5px 30px;
+}   
+    
+
+
+
+.smallbox5 p{
+    font-size: 20px;
+    padding: 10px ;
+}    
+
+
+.smallbox5 button{
+    background-color:#ff2b85;
+    color: white;
+    padding: 15px 15px;
+    margin-left:30px ;
+    border-radius: 10px;
+    border: 1px solid transparent;  
+}
+
+
+.smallbox5 button:hover{
+    background-color:#C21760;
+    transform: scale(1.07);
+}
+
+
+.section6{
+   margin-left: 80px;
+}
+
+.lastsection{
+
+}
+
+footer{
+    margin-left: 80px;
+}
+
+
+.country{
+    margin: 20px 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;align-items: center;
+}
+.country a{
+    color: black;
+    font-size: 18px;
+
+}
+
+.footerDiv{
+    display: flex;
+    margin-top: 40px;
+}
+.foodpanda{
+    width: 30%;
+    font-weight: bold;
+    color: gray;
+
+}
+.footerlinksDiv{
+    width: 60%;
+    margin-bottom: 30px;
+
+}
+.footerlinks{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin-inline: 30px;
+}
+.footerlinks span{
+    width: 30%;
+padding-top: 20px  
+  
+}
+.footerlinks a{
+    /* font-weight: bold; */
+text-align: justify;
+color: rgb(57, 56, 56);
+font-size: 18px;
+}
+
+.footer_Branding{
+    display: flex;
+
+}
+.v1{
+    border-right: 1px solid black;
+    width: 1px;
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 10px;
+margin-left: 10px;
+}
